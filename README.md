@@ -1,16 +1,38 @@
-# fashion_toko
+# a. Nama Aplikasi
+**Thrift Hunter**
 
-A new Flutter project.
+# b. Deskripsi Singkat
+Thrift Hunter adalah aplikasi mobile e-commerce berbasis Flutter yang dirancang untuk toko pakaian thrift (barang bekas berkualitas). Aplikasi ini menampilkan katalog produk dengan desain antarmuka (UI) yang modern, bersih, dan responsif. Pengguna dapat melihat daftar baju yang tersedia dan melihat detail produk lengkap dengan harga dan deskripsi.
 
-## Getting Started
+# c. Fitur
+Aplikasi ini memiliki fitur-fitur unggulan berikut:
+* **Katalog Produk:** Menampilkan daftar baju dalam format Grid View yang rapi.
+* **Detail Produk:** Halaman detail yang menampilkan gambar besar, deskripsi, dan harga.
+* **Hero Animation:** Transisi animasi halus saat gambar produk diklik dari halaman utama ke detail.
+* **Format Mata Uang IDR:** Harga produk otomatis diformat ke dalam Rupiah (Rp).
+* **Modern UI:** Menggunakan font Google Fonts (Poppins) dan desain rounded corner yang kekinian.
+* **Error Handling:** Penanganan otomatis jika gambar gagal dimuat (menampilkan ikon broken image).
 
-This project is a starting point for a Flutter application.
+# d. Cara Menjalankan
+Pastikan Flutter SDK sudah terinstall. Ikuti langkah berikut di terminal:
 
-A few resources to get you started if this is your first Flutter project:
+1.  Clone repository ini (atau download ZIP):
+    ```bash
+    git clone [https://github.com/USERNAME_ANDA/NAMA_REPO.git](https://github.com/USERNAME_ANDA/NAMA_REPO.git)
+    ```
+2.  Masuk ke folder project:
+    ```bash
+    cd fashion_toko
+    ```
+3.  Install dependencies (paket pendukung):
+    ```bash
+    flutter pub get
+    ```
+4.  Jalankan aplikasi:
+    ```bash
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    flutter run
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# e. Screenshot Halaman Utama
+<img width="1920" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/0711f51b-ec27-4a07-b3f5-60dd85d9e52c" />
