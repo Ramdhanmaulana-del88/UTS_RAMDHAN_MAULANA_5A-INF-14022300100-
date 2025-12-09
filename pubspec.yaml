@@ -1,0 +1,37 @@
+name: thrift_app
+description: Aplikasi Thrift Shop Modern dengan tampilan UI menarik.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Ikon bawaan iOS style
+  cupertino_icons: ^1.0.6
+
+  # Untuk Font Modern (Poppins, dll)
+  google_fonts: ^6.1.0
+
+  # Untuk Format Mata Uang (Rupiah)
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linter agar kodingan rapi (Best Practice)
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Bagian ini disiapkan jika nanti Anda ingin pakai gambar lokal (bukan internet)
+  # Buat folder 'assets' di luar folder 'lib', lalu uncomment baris di bawah:
+
+  # assets:
+  #   - assets/images/
